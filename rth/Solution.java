@@ -1,28 +1,32 @@
 package rth;
 import java.util.*;
-import java.util.Scanner;
-//import java.util.Arrays;
-public class Solution { 
-    public static void main(String args[]){ 
-        Scanner sc =new Scanner(System.in);
-        int x1=sc.nextInt();
-        int v1=sc.nextInt();
-        int x2=sc.nextInt();
-        int v2=sc.nextInt();
-        int jump_1=0,jump_2=0;
-       String answer="no";
-       int j=10;
-         for(int i=0;i<=j;i++)
-         jump_1=x1+v1;
-         jump_2=x2+v2;
-         if (jump_1==jump_2){ 
-            answer="yes";
-            j=0;
-         }
-         x1=x1+v1;
-         x2=x2+v2;
-        System.out.println(answer);
+public class Solution {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" please enter 2 numbers ");
+        int n1 = sc.nextInt();
+        int n2 = sc.nextInt();
+        int lcm = 0;
+        lcm:
+         for (int i = 2; i <= n2 * n1; i++)// lcm {
+            if (i % n1 == 0) {
+                if (i % n2 == 0) {
+                    lcm = i;
+                    break lcm;
+                }
+            }
+        int gcd = 0;
+        gcd:
+        for (int i = 2; i <= n1 * n2; i++) {
+            if (n1 % i == 0) {
+                if (n2 % i == 0) {
+                    gcd = i;
+                    break gcd;
+                }
+            }
+        }
+        System.out.println(" the lcm " + lcm + " the greatest common divisor " + gcd);
+    sc.close();
     }
-}
 
-        
+}
