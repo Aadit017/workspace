@@ -1,9 +1,26 @@
 body{ 
-    background-color: aqua;
+    background-color: #f1e189;
 }
 h1{ 
-   background-color: red;
-   width: 115px;
-    font-size: 20px;
+    margin-top: 0;
+    margin
+    font-size: 78.5px;
     color: rgb(79, 0, 0);
+}
+img{ 
+    background-color: brown;
+}
+hr{ 
+    
+    border-width: 5px;
+    border-color: green;
+    width: 25%;
+    border-style: none;
+    border-top-style:dotted; 
+    height: 10px;
+}
+p{ 
+    font-size: 20px;
+    font-style: italic;
+    color:#B22222;
 }
