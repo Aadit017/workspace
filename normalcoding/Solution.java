@@ -1,4 +1,4 @@
-
+package normalcoding;
 import java.util.Scanner;
 
 public class Solution {

@@ -1,13 +1,19 @@
 body { 
-   background-color: #bbe1fa;
+   background-color: #ffd5cd;
 }
 hr{ 
+  margin-left:0;
    border-color: #d789d7;
     border-width :5px;
-
     width:100px;
-    height: 0px;
-
+    height: 10px;
+    color: #931a25;
     border-style:none;
     border-top-style:dotted;
+}
+h1{
+    color: #931a25;
+}
+h3{ 
+    color: #931a25;
 }
