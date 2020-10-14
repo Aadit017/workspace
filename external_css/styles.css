@@ -1,15 +1,16 @@
+
+
+
 body{ 
     background-color: #f1e189;
 }
 h1{ 
+    text-align: center;
     margin-top: 0;
-    margin
     font-size: 78.5px;
     color: rgb(79, 0, 0);
 }
-img{ 
-    background-color: brown;
-}
+
 hr{ 
     
     border-width: 5px;
@@ -23,4 +24,32 @@ p{
     font-size: 20px;
     font-style: italic;
     color:#B22222;
+}
+.bacon{
+    background-color: brown ;
+    transition: background-color .5s;
+}
+.brocolli{ 
+    background-color: brown;
+    transition: background-color 0.5s;
+}
+#baconbacon{ 
+    color:#931a25 ;
+}
+.bacon:hover{ 
+    background-color:#b5651d;
+}
+.brocolli:hover{ 
+    background-color: #b5651d;
+}
+a{ 
+    background-color: #f1e189;
+}
+img{ 
+    background-color: #f1e189;
+}
+.refresh{ 
+    height: 30px;
+    width: 30px;
+    background-color:#f1e189;
 }
