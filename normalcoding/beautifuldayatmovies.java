@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class beautifuldayatmovies {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        int i = sc.nextInt();
-        int j = sc.nextInt();
-        int k = sc.nextInt();
+        long i = sc.nextInt();
+        long j = sc.nextInt();
+        long k = sc.nextInt();
         int check;
         int counter = 0;
-        for (int o = i; o <= j; o++) {
+        for (long o = i; o <= j; o++) {
             check = if_divisible(o, k);
             if (check != 0) {
                 counter++;
@@ -22,9 +22,9 @@ public class beautifuldayatmovies {
     
     }
 
-    static int if_divisible(int o, int k) {
-        int reverse = chech_reverse(o);
-        int difference = o - reverse;
+    static int if_divisible(long o, long  k) {
+        long reverse = chech_reverse(o);
+        long difference = o - reverse;
         if (difference % k == 0) {
             return 1;
         }
@@ -32,8 +32,8 @@ public class beautifuldayatmovies {
 
     }
 
-    static int chech_reverse(int o) {
-        int returned = 0;
+    static long chech_reverse(long o) {
+        long returned = 0;
         boolean cond = true;
         if (cond) {
             if (o % 10 == 0) {

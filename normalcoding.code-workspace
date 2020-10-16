@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "D:\\workspace"
+		},
+		{
+			"name": "vscode",
+			"path": "E:\\New Folder\\clone\\vscode"
+		}
+	],
+	"settings": {
+		"extensions.ignoreRecommendations": true,
+		"files.autoSave": "off"
+	}
+}

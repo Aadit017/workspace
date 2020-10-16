@@ -1,0 +1,11 @@
+body{ 
+    background-color: #94b4a4;
+}
+div{
+   background-color:greenyellow;
+    transition: background-color 0.5s;
+   
+}
+div:hover{ 
+    background-color: red;
+}
