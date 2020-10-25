@@ -1,0 +1,27 @@
+hr{ 
+    align-items: center;
+    border-style: dotted;
+    border-width: 7px;
+    width: 38%;
+    color: aquamarine;
+    height: 0px;
+    border-bottom-style:none ;
+}
+body{ 
+    background-color: #ffa62b;
+    color:#14274e ;
+}
+p{ 
+    background-color: #ffa62b;
+    transition: 0.5s;
+    margin-top: 0;
+    margin-bottom: 0%;
+    margin-left: 40%;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    width:295px
+}
+p:hover{ 
+    background-color: #ffeadb;
+    border-radius: 30% 10%;
+}

@@ -1,19 +1,11 @@
-body { 
-   background-color: #ffd5cd;
+body{ 
+    background-color: #94b4a4;
 }
-hr{ 
-  margin-left:0;
-   border-color: #d789d7;
-    border-width :5px;
-    width:100px;
-    height: 10px;
-    color: #931a25;
-    border-style:none;
-    border-top-style:dotted;
+div{
+   background-color:greenyellow;
+    transition: background-color 0.5s;
+   
 }
-h1{
-    color: #931a25;
-}
-h3{ 
-    color: #931a25;
+div:hover{ 
+    background-color: red;
 }
