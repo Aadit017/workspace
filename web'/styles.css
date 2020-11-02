@@ -1,0 +1,159 @@
+body{ 
+
+    background-color:rgb(192,192,192);
+}
+.topright{ 
+    
+        width: 1%;
+        height: auto;
+    
+}
+
+.text{ 
+   
+    text-decoration-color:rgb(192,192,192) ;
+    opacity: 70%;
+    transition: opacity 0.5s;
+    font-family: 'Sacramento' ,Courier New;
+    font-size: 50px;
+    position: absolute;
+    text-align:center;
+    top:5%;
+    left:34%;
+    
+}
+.text:hover{ 
+   opacity:30% ;
+} 
+
+.cloud1{
+    position: absolute;
+    left:0;
+    transition: left  0.3s;
+}
+.cloud1:hover{ 
+    position: absolute;
+    left: 30px;
+
+}
+.cloud2{ 
+    position:absolute;
+    right:0;
+    top:60%;
+    transition: right 0.3s;
+}
+.cloud2:hover{ 
+    position: absolute;
+    right: 30px;
+}
+.container{ 
+    position: relative;
+    top:330px;
+    left:460px;
+    width: 30%;
+  
+    background-color: rgb(192,192,192,.5) ;
+    transition: background-color 0.2s;
+    height: 200px;
+}
+.lowertext{ 
+    position: relative;
+    top:1000px;
+}
+.ap{ 
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace
+}
+.lorem{ 
+    font-size: small;
+    padding-top: 10%;
+    text-align:center;
+    color:black;
+    opacity: 50%;
+    transition: font-size 0.3s;
+}
+/*.container:hover{ 
+   you can remove the brackets if you want a colored contaner
+   #background-color: 	rgb(255,69,0,0.9) ;
+    */
+
+
+
+.lorem:hover{ 
+   font-size: large;
+}
+.middle img{ 
+    position:absolute;
+    width:120px;
+    height:120px;
+    top:90%;
+    left:45%;
+    border-style: dotted;
+    border-radius: 38%;
+    border-color:rgb(192,192,192) ;
+    transition: border-style 0.2s;  
+    transition: border-color 0.2s;  
+} 
+
+.hr_1 hr{ 
+    border-width: 10px;
+    margin-left:30%;
+    border-style: none ;
+    border-top-style: dotted;
+    width:39.5%;
+    position: absolute;
+    top:80%;
+
+    color: rgb(0,0,0,0.3)
+}
+.bottom_container{ 
+    position: absolute;
+    top:700px;
+    left:35%;
+    background-color: rgb(192,192,192);
+    width: 400px;
+    height: 600px;
+}
+.who{ 
+    font-size: small;
+    text-align:center;
+    color:black;
+    opacity: 50%;
+    transition: font-size 0.3s;
+}
+.who:hover{ 
+    font-size: large;
+}
+.skills img{ 
+    position: absolute;
+    top:140px;
+    left:140px;
+}
+.listskil{ 
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top:270px;
+    left:170px;
+    color:black;
+    opacity: 50%;
+    transition: font-size 0.3s;
+
+}
+.listskil h1{ 
+    font-family: serif;
+    position: relative;
+    left:-50px;
+}
+.listskil:hover{ 
+    font-size: x-large;
+}
+.hr_2{
+    border-width: 10px;
+    margin-left:24%;
+    border-style: none ;
+    border-top-style: dotted;
+    width:77.5%;
+    position: absolute;
+    top:100%;
+    color: rgb(0,0,0,0.3)
+}
