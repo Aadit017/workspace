@@ -1,3 +1,7 @@
+# if you came here from my story 
+# please help me in finishing this calcultor
+
+
 from tkinter import * 
 root=Tk()
 #  not required here root.geometry()
