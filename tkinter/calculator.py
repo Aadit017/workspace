@@ -1,6 +1,9 @@
+# hello if you came through the story
+
 from tkinter import * 
 root=Tk()
 f_num=None
+math=None
 #  not required here root.geometry()
 root.title("calculator")
 entry=Entry(root,width=50,borderwidth=5)#,fg="grey",bg="black")
@@ -14,23 +17,43 @@ def clear():
     entry.delete(0,END)
 def addition(): 
     first_number=entry.get()
-    global f_num 
+    global f_num, math 
     f_num=int(first_number)
+    math="addition"
     entry.delete(0,END)
 def subtraction(): 
-    return 0
+    first_number=entry.get()
+    global f_num, math 
+    f_num=int(first_number)
+    math="subtraction"
+    entry.delete(0,END)
 def multi(): 
-    return 0
+    first_number=entry.get()
+    global f_num, math 
+    f_num=int(first_number)
+    math="multiply"
+    entry.delete(0,END)
 def divide(): 
-    return 0
+    first_number=entry.get()
+    global f_num, math 
+    f_num=int(first_number)
+    math="division"
+    entry.delete(0,END)
 def equal_button(): 
     second_number=entry.get()
     entry.delete(0,END)
-    entry.insert(0,f_num+int(second_number))  
+    if math == "addition": 
+        entry.insert(0,f_num+int(second_number))
+    elif math== "subtraction": 
+        entry.insert(0,f_num-int(second_number))
+    elif math== "multiply":
+        entry.insert(0,f_num*int(second_number))
+    else : 
+        entry.insert(0,f_num/int(second_number))  
 def clear(): 
     entry.delete(0,END)
     
-# buttons 
+# buttons <--
 button_1=Button(root,text="1",padx=40,pady=20,command=lambda: button_add(1))
 button_2=Button(root,text="2",padx=40,pady=20,command=lambda: button_add(2))
 button_3=Button(root,text="3",padx=40,pady=20,command=lambda: button_add(3))
