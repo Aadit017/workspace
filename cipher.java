@@ -73,7 +73,7 @@ again();
         }else{ 
             System.out.println("01100111 01101111 01101111 01100100 00100000 01100010 01111001 01100101 ");
         }
-        sc.close();
+       
     
  }
         public static void main(String args[]){ 
