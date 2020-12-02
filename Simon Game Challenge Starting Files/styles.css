@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 5px;
+display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid black;
+  border-radius: 10%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  border-top-right-radius: 50%;
+}
+
+.green {
+  background-color: green;
+  border-top-left-radius: 50%;
+}
+
+.blue {
+  background-color: blue;
+  border-bottom-right-radius: 50%;
+}
+
+.yellow {
+  background-color: yellow;
+  border-bottom-left-radius: 50%;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+/*  this is for the mobile version */
+@media (max-width:1020px){ 
+  .container {
+    display: block;
+    width: 50%;
+    margin: 290px auto auto auto ;
+  
+  }
+  .btn {
+    margin: 5px;
+  display: inline-block;
+    height: 201px;
+    width: 201px;
+    border: 10px solid black;
+    border-radius: 10%;
+  }
+
+  .red {
+    background-color: red;
+    border-top-right-radius: 50%;
+  }
+  
+  .green {
+    background-color: green;
+    border-top-left-radius: 50%;
+  }
+  
+  .blue {
+    background-color: blue;
+    border-bottom-right-radius: 50%;
+  }
+  
+  .yellow {
+    background-color: yellow;
+    border-bottom-left-radius: 50%;
+  }
+  
+}
