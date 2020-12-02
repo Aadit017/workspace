@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body  >
+<section id="main">
+<h2 class="disply animate__backInDown" style="font-family:'Major Mono Display'" >calculator</h2>
+<h1 class="display">
+    0
+</h1>
+<div class="container">
+<div class="row"><div class="col1">
+    <button class="btnNum left " id="1" onclick="calc(1)">1</button>
+    <button class="btnNum top" id="2" onclick="calc(2)" >2</button>
+    <button class="btnNum rigth" id="3" onclick="calc(3)">3</button>
+    <button class="btnNum exp-top" onclick="operation('add')">+</button>
+</div></div>
+
+<div class="row"><div  class="col2">
+    <button class="btnNum top" id="4" onclick="calc(4)">4</button>
+    <button class="btnNum top" id="5" onclick="calc(5)" >5</button>
+    <button class="btnNum top" id="6" onclick="calc(6)">6</button>
+    <button class="btnNum top" onclick="operation('sub')">-</button>
+</div>
+</div>
+<div class="row"><div  class="col3">
+    <button class="btnNum top" id="7" onclick="calc(7)">7</button>
+    <button class="btnNum top" id="8" onclick="calc(8)">8</button>
+    <button class="btnNum top" id="9" onclick="calc(9)">9</button>
+    <button class="btnNum top" onclick="operation('mul')">*</button>
+</div>
+</div>
+<div class="row"><div  class="col4">
+    <button class="btnNum top" onclick="clearr('mul')">c</button>
+    <button class="btnNum top" id="0" onclick="calc(0)">0</button>
+    <button class="btnNum top" id="" onclick="equal()">=</button>
+    <button class="btnNum top" onclick="operation('div')">/</button>
+</div>
+</div>
+
+</div>
+>
+</section>
+<div class="imp"> sorry but your device is too big for the app</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
